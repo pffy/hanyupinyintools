@@ -6,8 +6,9 @@ on:
   push:
     paths:
       - 'src/*.gs'
+  release:
     paths-ignore:
-      - 'dist/**'
+      - 'dist/**'  
     tags-ignore:
       - '**'
       
