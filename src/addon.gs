@@ -195,3 +195,4 @@ function hpt_hpn_(text) {
 function finish_(str) {
   return str.replace((new RegExp('[^\\S\\n]{2,}', 'g')), ' ').trim();
 }
+
