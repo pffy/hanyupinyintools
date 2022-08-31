@@ -1,5 +1,10 @@
 # HanyuPinyinTools
 
+  + Hanyu Pinyin custom functions for Google Sheets
+  + This is **Version 81.**
+
+
+
 # INSTALL
 
 > **NOTE:** Each method only affects one spreadsheet. 
@@ -21,6 +26,47 @@ The source files in the `src` folder of this repo are automatically combined int
     + You can preview the Apps Script file.
     + You get your own personal copy of HanyuPinyinTools.
     + Distributed, decentralized copies prevent updates from breaking your spreadsheet.
+
+
+# FUNCTIONS
+
+### `=HANYUPINYIN(text)`
+
+Converts Chinese characters to Hanyu Pinyin with tone numbers.
+
+```visualbasic
+// ni3 hao3
+=HANYUPINYIN("你好")
+```
+
+
+### `=HANYUPINYIN_TONEMARKS(text)`
+
+Converts Chinese characters to Hanyu Pinyin with backwards-compatible tone marks.
+
+```visualbasic
+// nĭ hăo
+=HANYUPINYIN_TONEMARKS("你好")
+```
+
+
+### `=HANYUPINYIN_TONEMARKS_ISO(text)`
+
+Converts Chinese characters to Hanyu Pinyin with ISO compliant tone marks.
+
+```visualbasic
+// nǐ hǎo
+=HANYUPINYIN_TONEMARKS_ISO("你好")
+```
+
+### `=HANYUPINYIN_TONELESS(text)`
+
+Converts Chinese characters to Hanyu Pinyin with ISO compliant tone marks.
+
+```visualbasic
+// ni hao
+=HANYUPINYIN_TONELESS("你好")
+```
 
 
 
