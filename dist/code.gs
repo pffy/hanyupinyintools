@@ -10,6 +10,7 @@
  * licesne  : https://opensource.org/licenses/MIT
  */
 
+
 /**
  * @OnlyCurrentDoc Limits the script to only accessing the current spreadsheet.
  */
