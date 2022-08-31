@@ -42,7 +42,7 @@ Converts Chinese characters to Hanyu Pinyin with tone numbers.
 
 ### `=HANYUPINYIN_TONEMARKS(text)`
 
-Converts Chinese characters to Hanyu Pinyin with backwards-compatible tone marks.
+Converts Chinese characters to Hanyu Pinyin with backwards-compatible tone marks. The third tone is often represented by a [breve diacritic][wiki_breve]. This diacritic looks like the bottom half of a circle.
 
 ```visualbasic
 // nĭ hăo
@@ -52,7 +52,7 @@ Converts Chinese characters to Hanyu Pinyin with backwards-compatible tone marks
 
 ### `=HANYUPINYIN_TONEMARKS_ISO(text)`
 
-Converts Chinese characters to Hanyu Pinyin with ISO compliant tone marks.
+Converts Chinese characters to Hanyu Pinyin with [ISO-compliant][wiki_iso] tone marks. The third tone is always represented by a [caron diacritic][wiki_caron] (or haček). This diacritic looks like an inverted chevron.
 
 ```visualbasic
 // nǐ hǎo
@@ -68,7 +68,8 @@ Converts Chinese characters to Hanyu Pinyin with ISO compliant tone marks.
 =HANYUPINYIN_TONELESS("你好")
 ```
 
-
-
+[wiki_breve]: https://en.wikipedia.org/wiki/Breve
+[wiki_caron]: https://en.wikipedia.org/wiki/Caron
+[wiki_iso]: https://www.iso.org/standard/61420.html
 [copy]: https://docs.google.com/spreadsheets/d/1Uqm3gbPf3DSn314dCT75ZRsDrbkeMB0wRuuQM5ssXdY/copy
 [dist]: https://github.com/pffy/hanyupinyintools/tree/main/dist
