@@ -16,7 +16,7 @@ The source files in the `src` folder of this repo are combined into a single Goo
 
 ### Method 2: Make a copy.
 
-1. [Make of copy][copy] of HanyuPinyinTools.
+1. **[Make of copy][copy]** of HanyuPinyinTools.
   - You can preview the Apps Script file.
   - You get your own personal copy of HanyuPinyinTools.
   - Distributed, decentralized copies prevent updates from breaking your spreadsheet.
