@@ -6,12 +6,9 @@ on:
   push:
     paths:
       - 'src/*.gs'
-  release:
-    paths-ignore:
-      - 'dist/**'  
-    tags-ignore:
-      - '**'
-      
+    branches:
+      - 'main'
+
 jobs:
   build_dist:
     runs-on: ubuntu-latest
