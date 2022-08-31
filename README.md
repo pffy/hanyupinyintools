@@ -4,7 +4,6 @@
   + This is **Version 81.**
 
 
-
 # INSTALL
 
 > **NOTE:** Each method only affects one spreadsheet. 
@@ -67,6 +66,20 @@ Converts Chinese characters to Hanyu Pinyin with ISO compliant tone marks.
 // ni hao
 =HANYUPINYIN_TONELESS("你好")
 ```
+
+# USES
+
+A partial list of interesting uses
+
+    + http://blogs.bodleian.ox.ac.uk/digital/2018/02/12/a-reconciliation-recipe-for-wikidata/
+    + https://kaeritai.asia/archives/382
+
+
+# LICENSE
+  + MIT License
+  + Impelements `concat-gs-files` workflow avaialble under Unlicense here:
+    + https://github.com/pffy/code-gs
+  
 
 [wiki_breve]: https://en.wikipedia.org/wiki/Breve
 [wiki_caron]: https://en.wikipedia.org/wiki/Caron
