@@ -77,7 +77,7 @@ A partial list of interesting uses
 
 # LICENSE
   + MIT License
-  + Impelements `concat-gs-files` workflow avaialble under Unlicense here:
+  + Impelements `concat-gs-files` workflow avaialble under the Unlicense license here:
     + https://github.com/pffy/code-gs
   
 
