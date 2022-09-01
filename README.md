@@ -71,8 +71,8 @@ Converts Chinese characters to Hanyu Pinyin with ISO compliant tone marks.
 
 A partial list of interesting uses
 
-    + http://blogs.bodleian.ox.ac.uk/digital/2018/02/12/a-reconciliation-recipe-for-wikidata/
-    + https://kaeritai.asia/archives/382
++ http://blogs.bodleian.ox.ac.uk/digital/2018/02/12/a-reconciliation-recipe-for-wikidata/
++ https://kaeritai.asia/archives/382
 
 
 # LICENSE
